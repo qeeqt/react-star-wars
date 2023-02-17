@@ -21,7 +21,7 @@
     
 }
  //getIpiResourse(SWAPI_ROOT+SWAPI_PEOPLE)
- //.then(body =>console.log(body))
+ ///.then(body =>console.log(body))
 
 (async() =>{
 const body = await getIpiResourse(SWAPI_ROOT+SWAPI_PEOPLE)
